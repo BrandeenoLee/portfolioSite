@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import profileImage from '../assets/profileImage.jpg';
 
 
 class Landing extends Component {
@@ -8,34 +9,31 @@ class Landing extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-              alt="avatar"
-              className="avatar-img"
-              />
 
             <div className="banner-text">
-              <h1>Front End Web Developer</h1>
+              <h1>Brandon Adcock.</h1>
+              <hr/>
 
-            <hr/>
+              <p>HTML/CSS | Bootstrap | JavaScript | React | Express | MongoDB</p>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
 
-        <div className="social-links">
+             </div>
 
-          {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
-          </a>
+            </Cell>
+            <Cell col={4}>
+                  <img src={profileImage} className="profileImage"/>
+                
 
-          {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
-          </a>
+            </Cell>
+            <Cell col={8}>
 
-        </div>
+            <div className="aboutMeContainer">
+              <h1>About Me</h1>
+              <p>I'm a navy veteran who spent years in healthcare working with buggy software that spired my interest in coding. I spent my 2020 quarantine learning Javascript and building projects in React and am currently looking for a company to put my new skills to good use.</p>
+
             </div>
-          </Cell>
+
+            </Cell>
         </Grid>
       </div>
     )

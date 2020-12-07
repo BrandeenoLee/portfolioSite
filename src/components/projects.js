@@ -31,10 +31,10 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
             <CardText>
-              Weather App
+              Search for Weather by Zip App
             </CardText>
             <CardActions border>
-              <Button onClick={() => window.open('https://github.com/BrandeenoLee/covid-tracker')}colored>GitHub</Button>
+              <Button onClick={() => window.open('https://github.com/BrandeenoLee/weather-app')}colored>GitHub</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -45,10 +45,10 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
             <CardText>
-              Text Here
+              Recipe Search App
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button onClick={() => window.open('https://github.com/BrandeenoLee/reactRecipeApp')} colored>GitHub</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -83,7 +83,7 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>Angular</Tab>
           <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+
         </Tabs>
 
 
