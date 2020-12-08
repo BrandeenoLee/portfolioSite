@@ -14,7 +14,7 @@ class Landing extends Component {
               <h1>Brandon Adcock.</h1>
               <hr/>
 
-              <p>HTML/CSS | Bootstrap | JavaScript | React | Express | MongoDB</p>
+              <p>HTML/CSS | Bootstrap | <span className="test">Ruby</span> | JavaScript | React | Express | MongoDB</p>
 
 
              </div>
@@ -30,7 +30,6 @@ class Landing extends Component {
             <div className="aboutMeContainer">
               <h1>About Me</h1>
               <p>I'm a navy veteran who spent years in healthcare working with buggy software that spired my interest in coding. I spent my 2020 quarantine learning Javascript and building projects in React and am currently looking for a company to put my new skills to good use.</p>
-
             </div>
 
             </Cell>

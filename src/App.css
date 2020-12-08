@@ -47,8 +47,23 @@ body {
   text-align: center;
 }
 
+h1 .x {
+  color: purple;
+}
+
+p .test {
+  color: orange;
+}
+
+
+.contact-body a {
+  color: blue;
+  font-size: large;
+}
+
 .icon {
   margin-right: 10px;
+  font-size: large;
 }
 
 .banner-text {

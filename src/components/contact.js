@@ -16,6 +16,12 @@ class Contact extends Component {
             brandonladcock@gmail.com
          </a>
        </div> 
+       <div>
+         <a href='https://github.com/BrandeenoLee'>
+         <i class="fab fa-github icon"></i>
+             github.com/BrandeenoLee
+         </a>
+       </div>
       </div>
     )
   }
