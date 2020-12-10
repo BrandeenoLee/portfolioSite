@@ -25,8 +25,10 @@ body {
 
 }
 
-.projects-grid {
-  display: flex;
+.projectsContainer {
+    width: 80%;
+    text-align: center;
+    background-color: orange;
 }
 
 /* Resume Page css */
@@ -46,15 +48,6 @@ body {
   padding: 5px 20px 5px 20px;
   text-align: center;
 }
-
-h1 .x {
-  color: purple;
-}
-
-p .test {
-  color: orange;
-}
-
 
 .contact-body a {
   color: blue;

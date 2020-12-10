@@ -12,7 +12,7 @@ class Contact extends Component {
               />
        <div>
         <a href='mailto:brandonladcock@gmail.com'>
-        <i class="far fa-envelope icon"></i>
+          <i class="far fa-envelope icon"></i>
             brandonladcock@gmail.com
          </a>
        </div> 
