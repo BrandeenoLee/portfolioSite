@@ -1,6 +1,6 @@
-.mdl-cell {
+/* .mdl-cell {
   border: 5px solid  red;
-}
+} */
 
 .mdl-cell img {
   max-width:100%;
@@ -36,14 +36,20 @@ body {
 
 .projectsContainer {
     width: 80%;
+    margin: auto;
     text-align: center;
-    background-color: orange;
+    background-color: transparent;
     vertical-align: bottom;
   }
 
 .projectsContainer a {
     color: blue;
     font-size: large;
+}
+
+.projectsDescription {
+  margin-bottom: 10px;
+  background-color: white;
 }
 
 
