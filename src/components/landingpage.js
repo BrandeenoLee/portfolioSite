@@ -1,38 +1,38 @@
-import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import React from "react";
+import { Row, Col } from "react-bootstrap";
 import profileImage from "../assets/profileImage.jpg";
 import Banner from "./banner";
-import { render } from 'react-dom';
-import Container from './container';
-
 
 function Landing() {
-
-    return (
-     <Container>
-        <Grid className="landing-grid">
-          <Cell col={6}>
-            <Banner/>
-          </Cell>
-          <Cell col={4}>
-            <img src={profileImage} className="profileImage" />
-          </Cell>
-          <Cell col={8}>
-            <div className="aboutMeContainer">
-              <h1>About Me</h1>
-              <p>
-                I'm a navy veteran who spent years in healthcare working with
-                buggy software that spired my interest in coding. I spent my
-                2020 quarantine learning Javascript and building projects in
-                React and am currently looking for a company to put my new
-                skills to good use.
-              </p>
-            </div>
-          </Cell>
-        </Grid>
-        </Container>
-    );
-      
+  return (
+    <div className="landing-page">
+      <div className="landing-header m-auto">
+        <Row>
+          <Col sm={8}>
+            <Banner />
+          </Col>
+          <Col sm={4}>
+            <img src={profileImage} className="profileImage" alt="brandon" />
+          </Col>
+        </Row>
+      </div>
+      <Row>
+        <div className="aboutMeContainer mt-3">
+          <h1>About Me</h1>
+          <p>
+            I'm a navy veteran who spent years in healthcare working with buggy
+            software that spired my interest in coding. I spent my 2020
+            quarantine learning Javascript and building projects (including this
+            site) in React and am currently looking for a company to put my new
+            skills to good use.
+          </p>
+          <a href="/projects" className="button-link mt-2 d-inline-block">
+            See My Projects
+          </a>
+        </div>
+      </Row>
+    </div>
+  );
 }
 
 export default Landing;
