@@ -1,20 +1,23 @@
-/* .mdl-cell {
-  border: 5px solid  red;
-} */
-
-.mdl-cell img {
-  max-width:100%;
-  max-height:100%;
+/* landing page */
+.profileImage {
+  width: 100%;
+  border: 12px solid white;
+  -webkit-box-shadow: 7px 10px 58px -16px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 7px 10px 58px -16px rgba(0, 0, 0, 0.59);
+  box-shadow: 7px 10px 58px -16px rgba(0, 0, 0, 0.59);
 }
 
-.header-color {
-  background-color: #0c6d96
+.aboutMeContainer {
+  padding: 30px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
 }
 
-body {
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #ffffff, #64f884,  #31f300);  
-  background: linear-gradient(to right, #ffffff, #64f884, #31f300);
+.button-link {
+  background-color: green;
+  color: white;
+  border-radius: 9px;
+  padding: 20px;
 }
 
 /* projects page */
@@ -24,23 +27,8 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-
 .image img {
   width: 500px;
-}
-
-/*  */
-.profileImage {
-  height: 500px;
-
-}
-
-.aboutMeContainer {
-  background-color: white;
-  text-align: center;
-  padding: 5px 20px 5px 20px;
-  height: 500px;
-
 }
 
 .projectsDescription {
@@ -48,10 +36,9 @@ body {
   background-color: white;
 }
 
-
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
+  background: #27221f;
   color: white;
   padding: 2em;
 }
@@ -75,32 +62,6 @@ body {
 .icon {
   margin-right: 10px;
   font-size: large;
-}
-
-.banner-text {
-  background-color: black;
-  opacity: .8;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.banner-text h1 {
-  font-size: 66px;
-  font-weight: bold;
-}
-
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-
-.banner-text p {
-  color: white;
-  font-size: 20px;
-  padding: 1em;
 }
 
 .social-links {
