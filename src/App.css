@@ -17,10 +17,19 @@ body {
   background: linear-gradient(to right, #ffffff, #64f884, #31f300);
 }
 
-.landing-grid {
-  width: 80%;
+/* projects page */
+.projectsGrid {
+  display: grid;
+  grid-template-columns: 500px auto;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
+
+.image img {
+  width: 500px;
+}
+
+/*  */
 .profileImage {
   height: 500px;
 
@@ -32,19 +41,6 @@ body {
   padding: 5px 20px 5px 20px;
   height: 500px;
 
-}
-
-.projectsContainer {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    background-color: transparent;
-    vertical-align: bottom;
-  }
-
-.projectsContainer a {
-    color: blue;
-    font-size: large;
 }
 
 .projectsDescription {

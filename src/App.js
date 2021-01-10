@@ -8,8 +8,7 @@ import Resume from './assets/Resume.pdf';
 class App extends Component {
   render() {
     return (
-      <div className="demo-big-content">
-    <Layout>
+    <Layout fixedHeader>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Home</Link>} scroll>
             <Navigation>
                 <Link to="/projects">Projects</Link>
@@ -21,7 +20,6 @@ class App extends Component {
             <Main/>
         </Content>
     </Layout>
-</div>
 
     );
   }
