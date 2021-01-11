@@ -1,26 +1,19 @@
-import React, { Component } from 'react';
-import './App.css';
-import { Layout, Header, Navigation, Content } from 'react-mdl';
-import Main from './components/main';
-import { Link } from 'react-router-dom';
-import Resume from './assets/Resume.pdf';
+import React, { Component } from "react";
+import "./App.css";
+import Main from "./components/main";
+import PortfolioNav from './components/nabvar';
+import Container from './components/container';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
     return (
-    <Layout fixedHeader>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Home</Link>} scroll>
-            <Navigation>
-                <Link to="/projects">Projects</Link>
-                <Link to='/contact'>Contact</Link>
-                <a href={Resume} target="_blank">Resume</a>
-            </Navigation>
-        </Header>
-        <Content>
-            <Main/>
-        </Content>
-    </Layout>
-
+      <>
+        <PortfolioNav/>
+        <Container>
+          <Main />
+        </Container>
+      </>
     );
   }
 }

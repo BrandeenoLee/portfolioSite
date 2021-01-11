@@ -4,21 +4,24 @@ import profileImage from "../assets/profileImage.jpg";
 import Banner from "./banner";
 import { render } from 'react-dom';
 import Container from './container';
+import { Row, Col } from 'react-bootstrap';
 
 
 function Landing() {
 
     return (
-     <Container>
-        <Grid className="landing-grid">
-          <Cell col={6}>
-            <Banner/>
-          </Cell>
-          <Cell col={4}>
+        <>
+        <div className="m-auto">
+          <Row>
+            <Col sm={8}>
+              <Banner/>
+            </Col>
+            <Col sm={4}>
             <img src={profileImage} className="profileImage" />
-          </Cell>
-          <Cell col={8}>
-            <div className="aboutMeContainer">
+            </Col>
+          </Row>
+          <Row>
+            <div className="aboutMeContainer mt-3">
               <h1>About Me</h1>
               <p>
                 I'm a navy veteran who spent years in healthcare working with
@@ -27,10 +30,13 @@ function Landing() {
                 React and am currently looking for a company to put my new
                 skills to good use.
               </p>
+              <a href="/projects" className="button-link mt-2 d-inline-block">
+                See My Projects
+              </a>
             </div>
-          </Cell>
-        </Grid>
-        </Container>
+            </Row>
+        </div>
+        </>
     );
       
 }

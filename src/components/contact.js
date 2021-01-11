@@ -1,29 +1,27 @@
-import React, { Component } from 'react';
-import contactPicture from '../assets/contactimage.jpg'
+import React, { Component } from "react";
+import contactPicture from "../assets/contactimage.jpg";
 
 class Contact extends Component {
   render() {
-    return(
-      <div className="contact-body">
-        <h2>Contact Me</h2>
-        <img
-          src={contactPicture}
-          style={{height: '250px'}}
-              />
-       <div>
-        <a href='mailto:brandonladcock@gmail.com'>
-          <i className="far fa-envelope icon"></i>
+    return (
+      <div className="projectsGrid">
+        <div className="image">
+          <img src={contactPicture} />
+        </div>
+        <div className="description">
+          <h2>Get in touch!</h2>
+          {/* <p>inspirational thing.</p> */}
+          <a href="mailto:brandonladcock@gmail.com">
+            <i className="far fa-envelope icon"></i>
             brandonladcock@gmail.com
-         </a>
-       </div> 
-       <div>
-         <a href='https://github.com/BrandeenoLee'>
-         <i className="fab fa-github icon"></i>
-             github.com/BrandeenoLee
-         </a>
-       </div>
+          </a>
+          <a href="https://github.com/BrandeenoLee">
+            <i className="fab fa-github icon"></i>
+            github.com/BrandeenoLee
+          </a>
+        </div>
       </div>
-    )
+    );
   }
 }
 
