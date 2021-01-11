@@ -35,7 +35,7 @@ function Banner() {
     ref.current.push(setTimeout(() => set(["Web", "Developer"]), 7000));
   }, []);
 
-  useEffect(() => void reset(), []);
+  useEffect(() => void reset(), [reset]);
 
   return (
     <div>
