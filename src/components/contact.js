@@ -6,7 +6,7 @@ class Contact extends Component {
     return (
       <div className="projectsGrid">
         <div className="image">
-          <img src={contactPicture} />
+          <img src={contactPicture} alt="brandon"/>
         </div>
         <div className="description">
           <h2>Get in touch!</h2>

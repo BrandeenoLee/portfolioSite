@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className="projectsGrid">
       <div className="image">
-        <img src={allThingsWildSS} />
+        <img src={allThingsWildSS} alt="all things wild app screenshot" />
       </div>
       <div className="description">
         <h2>All Things Wild Volunteer Portal</h2>
@@ -26,7 +26,7 @@ function Projects() {
       </div>
 
       <div className="image">
-        <img src={covidTrackerSS} />
+        <img src={covidTrackerSS} alt="covid tracker screenshot" />
       </div>
       <div className="description">
         <h2>COVID-19 Tracker</h2>
@@ -45,7 +45,7 @@ function Projects() {
       </div>
 
       <div className="image">
-        <img src={weatherAppSS} />
+        <img src={weatherAppSS} alt="weather app screenshot" />
       </div>
       <div className="description">
         <h2>Weather App</h2>

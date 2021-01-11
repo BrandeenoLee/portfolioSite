@@ -14,7 +14,7 @@ function Landing() {
               <Banner/>
             </Col>
             <Col sm={4}>
-            <img src={profileImage} className="profileImage" />
+            <img src={profileImage} className="profileImage" alt="brandon" />
             </Col>
           </Row>
           <Row>
