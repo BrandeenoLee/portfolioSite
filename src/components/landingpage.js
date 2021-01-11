@@ -1,9 +1,6 @@
-import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import React from "react";
 import profileImage from "../assets/profileImage.jpg";
 import Banner from "./banner";
-import { render } from 'react-dom';
-import Container from './container';
 import { Row, Col } from 'react-bootstrap';
 
 
