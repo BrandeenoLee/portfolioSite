@@ -25,6 +25,7 @@
   display: grid;
   grid-template-columns: 500px auto;
   grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 24px;
 }
 
 .image img {
@@ -45,7 +46,6 @@
 }
 
 .projectsDescription {
-  margin-bottom: 10px;
   background-color: white;
 }
 
