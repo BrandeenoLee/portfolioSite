@@ -36,7 +36,7 @@ class Contact extends Component {
           </Carousel.Item>
         </Carousel>
         <div className="description">
-          My Animals like are excellent at helping me test!
+          My Animals enjoy helping me test my code!
         </div>
       </div>
     );
